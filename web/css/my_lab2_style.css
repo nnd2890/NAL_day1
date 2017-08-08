@@ -1,0 +1,19 @@
+body {
+	font-family: Tahoma;
+	font-size: 11px;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ul {
+	font-family: Consolas;
+}
+.redCode {
+	color: red;
+}
+
+.link {
+	color: blue;
+}
