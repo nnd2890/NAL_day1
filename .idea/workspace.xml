@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="23465688-b2b7-4bfa-b2a9-170e3e204e23" name="Default" comment="" />
+
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/web/day2/my-lab2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
-              <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+
               <folding />
             </state>
           </provider>
@@ -333,15 +335,15 @@
       <workItem from="1502090574449" duration="322000" />
       <workItem from="1502118003434" duration="1109000" />
       <workItem from="1502175607574" duration="2312000" />
-      <workItem from="1502185614094" duration="305000" />
+      <workItem from="1502185614094" duration="1410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7863000" />
+    <option name="totallyTimeSpent" value="8968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,7 +677,8 @@
     <entry file="file://$PROJECT_DIR$/web/day2/my-lab2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+
+
           <folding />
         </state>
       </provider>
