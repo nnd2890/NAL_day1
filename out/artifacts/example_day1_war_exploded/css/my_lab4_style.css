@@ -1,0 +1,55 @@
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.header1 {
+    border: 2px solid red;
+    padding: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header2 {
+    border: 2px solid black;
+    padding: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table {
+    width: 100%;
+}
+
+th {
+    width: 20%;
+    text-align: left;
+    background-color: lightgrey;
+}
+
+td {
+    width: 80%;
+}
+
+footer {
+    margin: 30px;
+}
+
+.footer1 {
+    border-top: 2px dotted red;
+    border-bottom: 2px dotted red;
+}
+
+.footer2 {
+    height: 100px;
+    border: 2px solid black ;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
