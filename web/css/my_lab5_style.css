@@ -1,0 +1,106 @@
+/* Header*/
+.main_header {
+    height: 60px;
+    margin: 20px 100px;
+    background-color: cadetblue;
+    padding: 1px;
+}
+
+/*Set name for header*/
+.name_header {
+    width: 150px;
+    padding: 0px 50px;
+}
+
+/* Set link header*/
+.nav_header {
+    max-width: 600px;
+    position: absolute;
+    top:60px;
+    right: 100px;
+}
+
+/* Set a tag header*/
+.a_header {
+    text-decoration: none;
+    padding: 0px 30px;
+    color: lightcyan;
+}
+
+/*set the content of page*/
+
+section {
+    position: relative;
+    margin: 20px 100px;
+    padding: 30px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    background-color: #DCDCDC;
+}
+/*the brief introduce about myself*/
+.introduce {
+    /*position: absolute;*/
+    border: none lightcyan;
+    max-width: 450px;
+    top:50px;
+    left: 50px;
+}
+
+/*!*Set postion picture*!*/
+.my_photo {
+    position: absolute ;
+    top:50px;
+    left: 580px;
+    border: 10px solid white;
+
+}
+
+/* Set link contact*/
+.link_contact {
+    float: right;
+}
+.fa {
+    padding: 4px 7px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin:5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+.fa-facebook {
+    background: #3B599B;
+}
+
+.fa-twitter {
+    background: #99ccff;
+}
+
+.fa-goolge {
+    background: red;
+}
+
+.fa-linkedin {
+    background: #0055ff;
+}
+
+.fa-skype {
+    background: #99ccff;
+}
+
+.fa-printerest {
+    background: #cc3300;
+}
+
+/* Set footer for page*/
+.main_footer {
+    background-color: cadetblue;
+    margin: 0px 100px;
+    text-align: center;
+}
