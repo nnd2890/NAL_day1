@@ -1,0 +1,98 @@
+/*Set general heder*/
+header {
+    height: 100px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+    /*Set icon header*/
+    .icon-header {
+        margin-left: 150px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    /*Set title header*/
+    .titlelink-header {
+        width: 1030px;
+        float: right;
+        margin-top: 30px;
+    }
+
+    /*Set title header*/
+    .title-header{
+        float: left;
+        font-size: 30px;
+    }
+
+    /*Set nav header*/
+    .nav-header {
+        margin-top: 5px;
+        margin-right: 150px;
+        float: right;
+        font-size: 20px;
+    }
+
+    /*Set a-header*/
+    .a-header {
+        color: #0055ff;
+        padding: 5px;
+    }
+
+/*Set the general section*/
+section {
+
+}
+    /*Set header of section*/
+    .header-section {
+        height: 60px;
+        background-color: DeepSkyBlue;
+        border-bottom: 2px solid black;
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /*Set font author of quotation*/
+    .quotations-author {
+        float: right;
+        padding-right: 200px;
+    }
+
+    /*Set the article*/
+    article {
+        margin: 20px 30px;
+        width: 28%;
+        float: left;
+    }
+
+    /*Set title article*/
+    .title-article {
+        font-size: 20px;
+        color: #0055ff;
+        text-decoration: underline;
+
+    }
+
+    /*Set content article*/
+    .content-article {
+        font-size: 18px;
+    }
+
+/*Set the general footer*/
+footer {
+    height: 40px;
+    background-color: DeepSkyBlue;
+    clear: both;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+    /*Set content footer*/
+    .content-footer {
+        font-size: 20px;
+        padding-top: 10px;
+        color: white;
+    }
