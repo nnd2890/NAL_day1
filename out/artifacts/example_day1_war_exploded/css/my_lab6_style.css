@@ -1,34 +1,35 @@
 /*Set general heder*/
 header {
     height: 100px;
+    margin: auto;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+
 }
+    /*Set title header*/
+    .titlelink-header {
+        margin: 15px 150px;
+    }
 
     /*Set icon header*/
     .icon-header {
-        margin-left: 150px;
-        margin-top: 20px;
+        width: 30px;
         float: left;
     }
 
-    /*Set title header*/
-    .titlelink-header {
-        width: 1030px;
-        float: right;
-        margin-top: 30px;
-    }
 
     /*Set title header*/
     .title-header{
+        margin: 10px 0px 0px 30px;
+        width: 200px;
         float: left;
         font-size: 30px;
     }
 
     /*Set nav header*/
     .nav-header {
-        margin-top: 5px;
-        margin-right: 150px;
+        margin: 15px 0px 0px 0px;
+        width: 300px;
         float: right;
         font-size: 20px;
     }
@@ -61,10 +62,15 @@ section {
         padding-right: 200px;
     }
 
+    /*Set the box model for container article*/
+    .articles {
+        margin: 0px 150px 0px 150px;
+    }
+
     /*Set the article*/
     article {
-        margin: 20px 30px;
-        width: 28%;
+        padding: 5px 20px;
+        width: 29%;
         float: left;
     }
 
