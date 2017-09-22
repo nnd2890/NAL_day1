@@ -1,0 +1,104 @@
+/*Set general heder*/
+header {
+    height: 100px;
+    margin: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+    /*Set title header*/
+    .titlelink-header {
+        margin: 15px 150px;
+    }
+
+    /*Set icon header*/
+    .icon-header {
+        width: 30px;
+        float: left;
+    }
+
+
+    /*Set title header*/
+    .title-header{
+        margin: 10px 0px 0px 30px;
+        width: 200px;
+        float: left;
+        font-size: 30px;
+    }
+
+    /*Set nav header*/
+    .nav-header {
+        margin: 15px 0px 0px 0px;
+        width: 300px;
+        float: right;
+        font-size: 20px;
+    }
+
+    /*Set a-header*/
+    .a-header {
+        color: #0055ff;
+        padding: 5px;
+    }
+
+/*Set the general section*/
+section {
+
+}
+    /*Set header of section*/
+    .header-section {
+        height: 60px;
+        background-color: DeepSkyBlue;
+        border-bottom: 2px solid black;
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /*Set font author of quotation*/
+    .quotations-author {
+        float: right;
+        padding-right: 200px;
+    }
+
+    /*Set the box model for container article*/
+    .articles {
+        margin: 0px 150px 0px 150px;
+    }
+
+    /*Set the article*/
+    article {
+        padding: 5px 20px;
+        width: 29%;
+        float: left;
+    }
+
+    /*Set title article*/
+    .title-article {
+        font-size: 20px;
+        color: #0055ff;
+        text-decoration: underline;
+
+    }
+
+    /*Set content article*/
+    .content-article {
+        font-size: 18px;
+    }
+
+/*Set the general footer*/
+footer {
+    height: 40px;
+    background-color: DeepSkyBlue;
+    clear: both;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+    /*Set content footer*/
+    .content-footer {
+        font-size: 20px;
+        padding-top: 10px;
+        color: white;
+    }
