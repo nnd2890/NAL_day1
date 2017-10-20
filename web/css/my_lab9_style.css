@@ -1,0 +1,122 @@
+* {box-sizing: border-box}
+
+/*Set the header of html*/
+header {
+    padding: 0px 0;
+    width: auto;
+    border-bottom: 1px solid black;
+}
+header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div.header-title {
+    text-align: center;
+    margin: 0;
+}
+div.header-title div:first-child {
+    display: inline-block;
+    font-size: 60px;
+}
+
+div.header-title div:last-child {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: super;
+}
+
+div.header-nav {
+    padding-top: 30px;
+    text-align: center;
+}
+
+div.header-nav nav a{
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+
+/*Set the body of html*/
+section {
+    height: auto;
+    border-bottom: 1px solid black;
+}
+/*Clear : both all part of html*/
+section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div.section-quotation {
+    background-color: #6fa8dc;
+    padding: 10px 0;
+}
+div.section-quotation blockquote {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+}
+div.section-quotation blockquote address {
+    text-align: right;
+}
+
+article {
+    margin: 5px 0;
+    padding: 5px 10px;
+    height: 300px;
+    overflow: auto;
+}
+/*Set the footer of html*/
+footer {
+    height: 40px;
+    border-bottom: 1px solid black;
+    background-color: #6fa8dc;
+}
+footer div {
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+/*For mobilephone*/
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
+/*For tablet*/
+@media only screen and (min-width: 600px) {
+    .col-m-1 {width: 8.33%}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+/*For destop*/
+@media only screen and (min-width: 768px) {
+    div.section-article {
+        margin: 0 100px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
